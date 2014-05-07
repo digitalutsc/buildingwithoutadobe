@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Building Without Adobe: FOSS for Digital Curation</title>
+
+		<meta name="description" content="A presentation on FOSS tools for digital curation projects">
+		<meta name="author" content="Sara Allain, Sarah Forbes">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+	<!-- Any section element inside of this container is displayed as a slide -->
+
+			<!--Slide template
+
+				<section>
+					<h2>Slide title</h2>
+					<br>
+					<p>Text here</p>
+					<ul>
+						<li>List elements here</li>
+						<li></li>
+						<li></li>
+					</ul>
+				</section>
+
+			-->
+
+			<div class="slides">
+				<section>
+					<h2>Building Without Adobe</h1>
+					<h3>Transforming Your Digital Collections with Free and/or Open Source Tools</h3>
+					<br />
+					<p>
+						<small>Sara Allain, Special Collections Librarian / <a href="http://twitter.com/archivalistic">@archivalistic</a><br />Sarah Forbes, Scholarly Communications Librarian / <a href="http://twitter.com/4bes">@4bes</a></small>
+					</p>
+					<br />
+					<p>
+						<small>Digital Scholarship Unit, UTSC Library / <a href="http://twitter.com/digitalutsc">@digitalutsc</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Our goals today</h2>
+					<br>
+					<ul>
+						<li>Reflect on UofT's move towards open source</li>
+						<li>Talk about why we use F/OSS</li>
+						<li>Introduce you to a few tools</li>
+						<li>Discuss!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Open source at UofT</h2>
+					<br>
+					<p></p>
+					<ul>
+						<li>Publishing platforms: <a href="https://jps.library.utoronto.ca/index.php/index/user/register">OJS</a>, <a href="http://ocs.library.utoronto.ca/">OCS</a></li>
+						<li>Library website: <a href="http://utsc.utoronto.ca/digitalscholarship">Drupal</a></li>
+						<li>Repository spaces: <a href="https://tspace.library.utoronto.ca/">DSpace</a>, <a href="http://collections.library.utoronto.ca/">Islandora</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Why we use F/OSS</h2>
+					<br>
+					<ul>
+						<li>Licenses for Photoshop + Illustrator + Dreamweaver = $1700 <small>(that's how much it costs to employ a GSLA for 77 hours!)</small></li>
+						<li>Dissemination of workspaces/freedom of movement</li>
+						<li>Formats are open and malleable</li>
+					<ul>
+				</section>
+
+				<section>
+					<section>
+						<h2><a href="http://www.imagemagick.org/">ImageMagick</a></h2>
+						<h4>Photoshop replacement</h4>
+						<br>
+						<ul>
+							<li>Free and open source</li>
+							<li>Suite of command-line image manipulation tools</li>
+							<li>Converts, resizes, reformats, crops, adjusts colours...</li>
+							<li>Can be used in the command line or through a user interface</li>
+						</ul>
+						</section>
+					<section>
+						<img src="img/imagemagick1.png"></img>
+					</section>
+					<section>
+						<img src="img/imagemagick2.png"></img>
+					</section>
+					<section>
+						<img src="img/imagemagick3.png"></img>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2><a href="http://www.gimp.org//">GIMP</a> & <a href="http://www.inkscape.org/">Inkscape</a></h2>
+						<h4>Photoshop & Illustrator replacements</h4>
+						<br>
+						<ul>
+							<li>Both free and open source</li>
+							<li>Non-proprietary image formats</li>
+							<li>Support layers, vectors, and other advanced formatting</li>
+						</ul>
+						</section>
+					<section>
+						<img src="img/gimp1.png"></img>
+					</section>
+					<section>
+						<img src="img/inkscape1.png"></img>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2><a href="http://www.sublimetext.com//">Sublime Text</a></h2>
+						<h4>Dreamweaver replacement</h4>
+						<br>
+						<ul>
+							<li>Not open source, but it is free!</li>
+							<li>Write XML, Dublin Core, MODS, python, etc...</li>
+							<li>Support for snippets, macros, and other helpful features</li>
+							<li>Extensions and plug-ins developed by the community</li>
+						</ul>
+					</section>
+					<section>
+						<img src="img/sublimetext1.png"></img>
+					</section>
+					<section>
+						<img src="img/sublimetext2.png"></img>
+					</section>
+				</section>
+
+				<section>
+					<h2>Best practices</h2>
+					<br>
+					<ul>
+						<li>Supports agile workflows</li>
+						<li>Every staff member can have all the tools they need, wherever they are</li>
+						<li>No version concerns - upgrades are free!</li>
+						<li>Non-proprietary formats easier to migrate in the future</li>
+						<li>Strong user communities = strong support system</li>
+						<li>Chance to give back to the community!</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Discussion</h2>
+					<br />
+					<p>
+						<small>Sara Allain, Special Collections Librarian / <a href="http://twitter.com/archivalistic">@archivalistic</a><br>Sarah Forbes, Scholarly Communications Librarian / <a href="http://twitter.com/4bes">@4bes</a></small>
+					</p>
+					<br />
+					<p>
+						<small>Digital Scholarship Unit, UTSC Library / <a href="http://twitter.com/digitalutsc">@digitalutsc</a></small>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
